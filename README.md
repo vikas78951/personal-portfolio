@@ -1,14 +1,11 @@
-
-/////////////////////
-//// V1 Completed
-//// Link : https://portfolio-vikrant78951s-projects.vercel.app
-/////////////////////
+# Portfolio
+My personal portfolio
+- [https://personal-portfolio-omega-lac-21.vercel.app](https://personal-portfolio-omega-lac-21.vercel.app)
 
 
 
-/////////////////////
-//// V2
-/////////////////////
+
+# V2 Plan
 
 ## Branching Strategy
 1. portfolio/main - Production-ready code  
