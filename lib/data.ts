@@ -28,28 +28,28 @@ export const user = {
 
   contactDetails: {
     phone: { type: "phone", value: "+91 9833311502", icon: "phone" },
-    email: { type: "email", value: "vikrant78951@gmail.com", icon: "mail" },
+    email: { type: "email", value: "vikass78951@gmail.com", icon: "mail" },
   },
 
   socialLinks: [
     {
       label: "LinkedIn",
-      url: "http://www.linkedin.com/in/vikas-singh-6601a7230",
+      url: "https://www.linkedin.com/in/vikas-singh-1387501a7",
       icon: "linkedin",
     },
     {
       label: "GitHub",
-      url: "https://github.com/vikrant78951",
+      url: "https://github.com/vikas78951",
       icon: "github",
     },
     {
       label: "Leetcode",
-      url: "https://leetcode.com/u/vikrant78951",
+      url: "https://leetcode.com/u/vikas985",
       icon: "leetcode",
     },
     {
       label: "Gmail",
-      url: "mailto:vikrant78951@gmail.com",
+      url: "mailto:vikass78951@gmail.com",
       icon: "gmail",
     },
     {
@@ -87,6 +87,38 @@ export const user = {
   ],
 
   experience: [
+        {
+      role: "Sr React Developer",
+      company: "Ziksu Capital Ltd",
+      duration: "June 2025 - Current",
+      monthsSpent: 5,
+      technologies: [
+        "Mern Stack",
+        "Next Js",
+        "TypeScript",
+        "Strapi",
+        "TDD",
+        "Docker",
+        "CI/CD",
+      ],
+      responsibilities: [
+        "Build Admin portal for Staff and Application managment",
+      ],
+      activities: [
+        "Admin Portal",
+        "Websites",
+        "Devops",
+      ],
+      screenshots: [
+        
+      ],
+      projects: [
+        {
+          name: "Ziksu",
+          link: "https://ziksu.com/",
+        },
+      ],
+    },
     {
       role: "Software Developer",
       company: "Mobile Programming India Pvt Ltd",
@@ -252,11 +284,11 @@ export const user = {
       name: "Erasify",
       description:
         "Built a SaaS platform for AI-powered background removal using Clipdrop APIs. Integrated Razorpay for payments and Redux for state management.",
-      link: "https://erasify-client.vercel.app",
+      link: "https://erasify-client-gamma.vercel.app",
     },
     {
       name: "MicroNext",
-      link: "https://www.micronextcomputer.org",
+      link: "https://micronext-two.vercel.app",
     },
   ],
 
@@ -341,7 +373,7 @@ export const user = {
     },
     {
       name: "Erasify",
-      link: "https://erasify-client.vercel.app",
+      link: "https://erasify-client-gamma.vercel.app",
       description:
         "Built a SaaS platform for AI-powered background removal using Clipdrop APIs. Integrated Razorpay for payments and Redux for state management.",
       image: "/images/erasify.png",

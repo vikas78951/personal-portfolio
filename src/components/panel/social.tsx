@@ -29,21 +29,23 @@ const PanelSocial = ({
           <div className="w-full">
             {data && (
               <PanelDescription className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 lg:gap-10 w-full">
-                {data.map((item: SocialLink) => (
+                {data.map((item: SocialLink) => {
+                  
+                  return (
                   <span
                     key={item.label}
                     className="block p-2 sm:p-4 md:p-4 lg:p-6 border border-foreground/30 bg-foreground/5 rounded-2xl backdrop-blur-xs
- "
-                  >
+                    bg-white inset-shadow-sm inset-shadow-gray-50
+                    ">
                     <Link
                       href={item.url}
                       target="_blank"
-                      className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-30 lg:w-30 flex items-center justify-center shadow rounded-2xl  p-2 md:p-4 transition-all duration-700 hover:scale-110 "
+                      className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-30 lg:w-30 flex items-center justify-center  rounded-2xl  p-2 md:p-4 transition-all duration-700 hover:scale-110 "
                     >
                       <Icon iconName={item.icon} className="h-full w-auto" />
                     </Link>
                   </span>
-                ))}
+                )})}
               </PanelDescription>
             )}
           </div>
